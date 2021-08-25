@@ -1,16 +1,16 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "quangvision/unit-conversions",
+    "description": "Awesome unit conversion package in PHP",
     "keywords": [
-        ":vendor_name",
-        "package_slug"
+        "quangvision",
+        "unit-conversions"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/quangvision/unit-conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Quang Tran",
+            "email": "quangvision@gmail.com",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "Quangvision\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Quangvision\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
