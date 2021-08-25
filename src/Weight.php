@@ -2,12 +2,18 @@
 
 namespace Quangvision\UnitConversions;
 
+use Psalm\Internal\Provider\AddRemoveTaints;
+
 class Weight
 {
     private float $kilograms;
 
     public function __construct(float $kilograms)
     {
+        $a = [
+            'test',
+            'test1'
+        ];
         $this->kilograms = $kilograms;
     }
 
