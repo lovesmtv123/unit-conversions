@@ -8,10 +8,6 @@ class Weight
 
     public function __construct(float $kilograms)
     {
-        $a = [
-            'test',
-            'test1',
-        ];
         $this->kilograms = $kilograms;
     }
 
